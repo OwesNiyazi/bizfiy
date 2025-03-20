@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "pop";
+  src: url("../src/assets/font/jizHRFtNs2ka5fXjeivQ4LroWlx-6zAjjH7M.woff2");
+}
+
+
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #353e4c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0d78d1;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0d78d1;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-family: swiper-icons;
+  font-size: var(--swiper-navigation-size);
+  text-transform: none !important;
+  letter-spacing: 0;
+  font-variant: initial;
+  line-height: 1;
+}
+
+swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: var(--swiper-pagination-bottom, -8px);
+  top: var(--swiper-pagination-top, auto);
+  left: 0;
+  width: 100%;
+}
+
+swiper-pagination {
+  top: 50%;
+  position: absolute;
+  text-align: center;
+  transition: 300ms opacity;
+  transform: translate3d(0, 0, 0);
+  z-index: 10;
+}
+@media only screen and (max-width: 600px) {
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    display: none;
+    background-color: aquamarine;
+  }
+}

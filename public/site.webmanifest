@@ -1,0 +1,46 @@
+{
+  "name": "Bizfy - AI & Technology Solutions",
+  "short_name": "Bizfy AI",
+  "description": "Leading AI technology company specializing in artificial intelligence, machine learning, and innovative tech solutions",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#01111f",
+  "theme_color": "#01111f",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["technology", "artificial intelligence", "business", "productivity"],
+  "screenshots": [
+    {
+      "src": "/screenshot1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "AI Solutions Dashboard"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Contact Us",
+      "url": "/#contact",
+      "description": "Get in touch with our AI experts"
+    },
+    {
+      "name": "AI Services",
+      "url": "/#services",
+      "description": "Explore our AI and ML solutions"
+    }
+  ]
+} 
